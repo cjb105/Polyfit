@@ -1,7 +1,7 @@
 Package: Polyfit
 Type: Package
 Title: Add-on to DESeq to improve p-values and q-values
-Version: 0.99.3
+Version: 0.99.4
 Date: 2014-08-06
 Author: Conrad Burden
 biocViews: DifferentialExpression, Sequencing, RNASeq, GeneExpression
