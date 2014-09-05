@@ -22,7 +22,7 @@ for two-class detection of differential expression.  Its purpose is to
 ensure the p-value distribution is close to uniform over the interval [0, 1] for 
 the subset of genes satisfying the null hypothesis of no differential expression.  
 The first component of Polyfit is the function 
-{\tt pfNbinomTest} which replace the function {\tt nbinomTest} in {\tt DESeq}.  
+{\tt pfNbinomTest} which replaces the function {\tt nbinomTest} in {\tt DESeq}.  
 Its purpose is to smooth point singularities (or `flagpoles'), 
 particularly one at  
 $p = 1$, in the p-value distribution caused by calculating 
