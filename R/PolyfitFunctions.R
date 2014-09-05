@@ -27,7 +27,7 @@
 #	The function replacing the original function nbinomTest()
 #
 #	Conrad Burden, April 2013
-#	Adapted from the original R code by Simon Anders)
+#	Adapted from original R code by Simon Anders)
 #
 pfNbinomTest <- function (cds, condA, condB, pvals_only = FALSE, eps = NULL) 
 {

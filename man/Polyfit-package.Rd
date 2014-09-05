@@ -12,8 +12,8 @@ implementation the Polyfit add-on to DESeq described in the paper
 \tabular{ll}{
 Package: \tab Polyfit\cr
 Type: \tab Package\cr
-Version: \tab 0.99.3\cr
-Date: \tab 2014-08-06\cr
+Version: \tab 0.99.5\cr
+Date: \tab 2014-08-05\cr
 License: \tab GPL(>=3)\cr
 }
 Polyfit is an add-on to the negative-binomial based packages DESeq for two-class detection of differential expression which ensures the p-value distribution is uniform over the interval [0, 1] for data satisfying the null hypothesis of no differential expression.  The first component is the function \code{\link{pfNbinomTest}} which replaces the function \code{\link{nbinomTest}} in DESeq.  Its purpose is to smooth point singularities, particularly one at  \eqn{p = 1}, in the p-value distribution caused by calculating calculating p-values from a discrete distribution.  The output from this function should then be passed to the second component, the function \code{link{levelPValues}}.  Its purpose is to apply a variant of the Storey-Tibshirani procedure to shift the p-values so that those corresponding to the null hypothesis have a unform distribution, and to calculate corresponding q-values (or 'adjusted p-values') for controlling errors via the false discovery rate.}
