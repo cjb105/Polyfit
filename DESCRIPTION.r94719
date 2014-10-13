@@ -1,13 +1,8 @@
 Package: Polyfit
 Type: Package
 Title: Add-on to DESeq to improve p-values and q-values
-<<<<<<< .mine
-Version: 0.99.5
-Date: 2014-08-05
-=======
-Version: 1.0.0
+Version: 0.99.4
 Date: 2014-08-06
->>>>>>> .r95439
 Author: Conrad Burden
 biocViews: DifferentialExpression, Sequencing, RNASeq, GeneExpression
 Maintainer: Conrad Burden <conrad.burden@anu.edu.au>
@@ -15,4 +10,4 @@ Depends: DESeq
 Suggests: BiocStyle
 Description: Polyfit is an add-on to the packages DESeq which ensures the p-value distribution is uniform over the interval [0, 1] for data satisfying the null hypothesis of no differential expression, and uses an adpated Storey-Tibshiran method to calculate q-values. 
 License: GPL (>= 3)
-Packaged: 2014-09-05 02:41:18 UTC; burden
+Packaged: 2014-07-25 06:20:48 UTC; burden
